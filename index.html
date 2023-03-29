@@ -4,54 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Museu Nacional</title>
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="normalize.css">
+    <!--Estilo customizado-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    
 </head>
 <body>
-    <header>
-        <div id="Titulo"><a href=""><img src="imagens/logo.png" alt="Museu Nacional"></div>
-        <div id="Menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Exposições</a></li>
-                <li><a href="index.html">Pesquisa</a></li>
-                <li><a href="index.html">Acervo</a></li>
-                <li><a href="index.html">Vídeos</a></li>
-                <li><a href="index.html">Fotos</a></li>
-                <li><a href="index.html">Contato</a></li>
-            </ul>
-        </div>
-    </header>
+    <div id="container"> <!--Início Container-->
+        
+        <header> <!--Inicio header-->
 
-    <div id="imagens">
-        <img src="imagens/museu.png" alt="">
-        <img src="imagens/depoimento.png" alt="">
-    </div>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
 
-    <div id="info">
-        <div id="video">
-            <h3>VÍDEO: CONHEÇA O MUSEU</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div id="Mapa">
-            <h3>MAPA: ENCONTRE O MUSEU</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.226529!3d-22.905760000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sus!4v1680016488762!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div id="exposicoes">
-            <h3>EXPOSIÇÕES</h3>
-            <ul>
-                <li><a href="index.html">Os assustadores insetos</a></li>
-                <li><a href="index.html">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
-                <li><a href="index.html">Preguiça gigante e tigre-dentes-de-sabre</a></li>
-                <li><a href="index.html">Plantas do Brasil Central</a></li>
-                <li><a href="index.html">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
-                <li><a href="index.html">Arte Com Dinossauros - Paleoarte</a></li>
-                <li><a href="index.html">Veja todos (65)</a></li>
-            </ul>
-        </div>
-        <div id="historia">
-            <h3>200 ANOS DE HISTÓRIA</h3>
-        </div>
-    </div>
+            <nav> <!--Início Nav-->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">videos</a></li>
+                    <li><a href="#">fotos</a></li>
+                    <li><a href="#">conato</a></li>
+                </ul>
+            </nav> <!--Fim Nav-->
+
+        </header> <!--Fim header-->
+
+    </div> <!--/Fim container-->
 </body>
 </html>
